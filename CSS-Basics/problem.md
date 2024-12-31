@@ -1,0 +1,1 @@
+You have to create a box which has dotted-border of red color , the inside of box is red colored and the background color is changed . you have to write inside the bos this line "The real css is in the coming days. Stay tuned " the color of the line should be different and give the padding and margin to that box.
