@@ -1,1 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: purple;
+}
+
+h1 {
+    color: crimson;
+    text-align: center;
+}
+
+p {
+    color: blue;
+    font-size: 18px;
+    margin: 20px;
+}
+
+.box {
+    background-color: #fff;
+    padding: 15px; /* this works in the inside of the box creates a space around it */
+    margin: 30px; /*this works on the outside of the box and  is the auto margin from top right bottom left but you can also give them separeately */
+    border: 1px solid grey; 
+    border-radius: 5px;
+}
 
