@@ -1,0 +1,43 @@
+Introduction to CSS
+CSS (Cascading Style Sheets) is used to style and layout web pages, allowing developers to control the appearance of HTML elements. With CSS, you can define styles for color, fonts, layout, spacing, and even animations, ensuring your website is visually appealing and user-friendly.
+
+3 ways to connect the CSS with html 
+-inline 
+-internal
+-External
+
+1-inline css here the properties are used inside the tags 
+<p style="color: blue; font-size: 16px;">This is a styled paragraph.</p>
+
+2-Internal CSS
+<!DOCTYPE html>
+<html lang="en">
+<head>
+/* this is the inside usage of css */
+    <style>
+        p {
+            color: blue;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <p>This is a styled paragraph.</p>
+</body>
+</html>
+
+3-External CSS
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+href represents the link to the file which contains the css inside it style.css is the actual file 
+</head>
+<body>
+    <p>This is a styled paragraph.</p>
+</body>
+</html>
+
+
+
+
