@@ -1,14 +1,17 @@
 lets talk about the elments and tags used for our documents out there 
 
-<html>: The root element of an HTML document.
+remember most of the elements contain opening as well as closing tags 
+<html>: The root element of an HTML document. closing tag can be </html> same for the others 
 <head>: Contains metadata, links to stylesheets, scripts, and the title of the page.
 <title>: Specifies the title of the web page (appears in the browser tab).
 <body>: Contains the content of the web page (visible part).
 <h1>, <h2>, etc.: Header tags for headings (with <h1> being the largest).
 <p>: Defines a paragraph.
-<a>: Defines a hyperlink.
+<a>: Defines a hyperlink. 
 <img>: Embeds an image.
-<div>
+<div> creates kind of a box
+<ul> or <ol> unordered or ordered list declaration 
+<li> list items created by this 
 there are two types of tags used out in web development 
 -semantic tags 
 -non-semnetic tags 
