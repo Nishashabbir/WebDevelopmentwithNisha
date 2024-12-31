@@ -12,6 +12,10 @@ remember most of the elements contain opening as well as closing tags
 <div> creates kind of a box
 <ul> or <ol> unordered or ordered list declaration 
 <li> list items created by this 
+<b> it makes the text bolder 
+<strong> this does the same thing 
+&lt less than sign 
+&gt greater than sign is appeared 
 there are two types of tags used out in web development 
 -semantic tags 
 -non-semnetic tags 
