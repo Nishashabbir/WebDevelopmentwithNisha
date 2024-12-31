@@ -1,0 +1,24 @@
+lets talk about the elments and tags used for our documents out there 
+
+<html>: The root element of an HTML document.
+<head>: Contains metadata, links to stylesheets, scripts, and the title of the page.
+<title>: Specifies the title of the web page (appears in the browser tab).
+<body>: Contains the content of the web page (visible part).
+<h1>, <h2>, etc.: Header tags for headings (with <h1> being the largest).
+<p>: Defines a paragraph.
+<a>: Defines a hyperlink.
+<img>: Embeds an image.
+<div>
+there are two types of tags used out in web development 
+-semantic tags 
+-non-semnetic tags 
+
+ semantic tags : which are valuable as they help  developer understand the section tags and can be more organized
+<header> it describes the header file 
+<nav> it describes the nav bar 
+<aside> it describes the side bar 
+<p> it writes a paragraph or just a line 
+<section> it is a section 
+<fooder> it describes the nav bar 
+non-semantic: you can aslo simply use one tag to use for all the elemens
+<div> like the same div can be used for all the purpose 
