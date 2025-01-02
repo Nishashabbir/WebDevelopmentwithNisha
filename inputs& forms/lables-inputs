@@ -1,6 +1,9 @@
 Labels in HTML are used to describe or identify input fields, making forms more user-friendly and accessible. 
 The <label> tag is paired with an input using the for attribute, which matches the input's id.
 
+remember that the for attribute of lable tag and the id attribute of input tag should have the same value ,  this is actually the point of the connection , we will discuss the name attribute
+later as it is used while submitting the data 
+example:
 <label for="username">Username:</label>
 <input type="text" id="username" name="username">
 
