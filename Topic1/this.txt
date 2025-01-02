@@ -1,3 +1,4 @@
+The tags 
 lets talk about the elments and tags used for our documents out there 
 
 remember most of the elements contain opening as well as closing tags 
