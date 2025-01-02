@@ -1,0 +1,78 @@
+there are many ways to create the lists for example 
+-Ordered lists 
+-unordered lists 
+lets dive into the further details of it 
+
+ol means ordered list and li means list item 
+this is the simple ordered list 
+<ol >
+  <li>First item</li>
+  <li>Second item</li>
+</ol>
+we can also give a type to the order in this way 
+type Attribute for Ordered Lists (<ol>)
+You can change the numbering style using the type attribute:
+  <ol type="1">
+  <li>First item</li>
+  <li>Second item</li>
+</ol>
+<!-- Default numeric (1, 2, 3...) -->
+
+<ol type="A">
+  <li>First item</li>
+  <li>Second item</li>
+</ol>
+<!-- Uppercase letters (A, B, C...) -->
+
+<ol type="a">
+  <li>First item</li>
+  <li>Second item</li>
+</ol>
+<!-- Lowercase letters (a, b, c...) -->
+
+<ol type="I">
+  <li>First item</li>
+  <li>Second item</li>
+</ol>
+<!-- Uppercase Roman numerals (I, II, III...) -->
+
+<ol type="i">
+  <li>First item</li>
+  <li>Second item</li>
+</ol>
+<!-- Lowercase Roman numerals (i, ii, iii...) -->
+
+
+  now we are gonna talk about the unordered lists 
+   Customizing Unordered Lists (<ul>)
+For <ul>, the type attribute is deprecated in HTML5, but you can still use CSS or Unicode characters for more customization. Example:
+  <ul style="list-style-type: square;">
+  <li>Square bullet point</li>
+  <li>Another item</li>
+</ul>
+other than square you  can give types for example 
+  CSS Values for list-style-type:
+disc (default)
+circle
+square
+none (removes bullets entirely)
+Combining type with Start Number in <ol>
+4-You can specify where the numbering starts using the start attribute:
+
+
+<ol type="A" start="5">
+  <li>Fifth item</li>
+  <li>Sixth item</li>
+</ol>
+<!-- Will display: E. Fifth item, F. Sixth item -->
+5-Adding Custom Bullets for <ul>
+If you want even more creative styles for <ul>, you can use list-style in CSS:
+
+html
+Copy code
+<ul style="list-style: url('bullet-image.png');">
+  <li>Custom image bullet</li>
+  <li>Another custom bullet</li>
+</ul>
+
+  
