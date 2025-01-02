@@ -1,1 +1,42 @@
+ A form typically contains various input elements (like text fields, checkboxes, and buttons) that users interact with to submit data.
 
+<form action="submit_url" method="POST">
+  <!-- Form elements go here -->
+</form>
+action: The URL where the form data will be sent when submitted.
+method: Specifies the HTTP method to send the form data. Common methods are:
+POST (sends data securely)
+GET (appends data to the URL)
+
+but here we will simply focus on creating a form 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Form</title>
+</head>
+<body>
+  <h2>Contact Us</h2>
+
+  <form>
+    <!-- Name input -->
+    <label for="name">Name:</label>
+    <input type="text" id="name"  required>
+    <br><br>
+
+    <!-- Email input -->
+    <label for="email">Email:</label>
+    <input type="email" id="email"  required>
+    <br><br>
+
+    <!-- Message textarea  it is also a  type of input for more info to add , you can change its size by number of rows or cols  -->
+    <label for="message">Message:</label>
+    <textarea id="message" rows="4" cols="50" required></textarea>
+    <br><br>
+
+    <!-- Submit button -->
+    <button type="submit">Send</button>
+  </form>
+</body>
+</html>
