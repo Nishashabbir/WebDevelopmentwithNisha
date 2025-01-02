@@ -29,3 +29,11 @@ there are two types of tags used out in web development
 <fooder> it describes the nav bar 
 non-semantic: you can aslo simply use one tag to use for all the elemens
 <div> like the same div can be used for all the purpose 
+
+
+note: when ever you start your document you gotta write your code inside the opening and closing tags of these both at least 
+<html> 
+<body>
+your entire code inside it 
+ </body>
+</html>
