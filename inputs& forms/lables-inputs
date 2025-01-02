@@ -1,1 +1,8 @@
+Labels in HTML are used to describe or identify input fields, making forms more user-friendly and accessible. 
+The <label> tag is paired with an input using the for attribute, which matches the input's id.
 
+<label for="username">Username:</label>
+<input type="text" id="username" name="username">
+
+when in the ouput if you see when you click on the username you automatically clicked the input field as well so it is basicallay a better way to use in the forms 
+the more you will see in the project 
