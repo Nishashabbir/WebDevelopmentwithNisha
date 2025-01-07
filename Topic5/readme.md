@@ -1,1 +1,6 @@
-let's talk about the background properties and create a box
+let's create a box
+we will learn about 
+align properties 
+box shadow properties 
+font properties 
+background colour properties 
