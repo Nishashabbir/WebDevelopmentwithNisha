@@ -3,9 +3,10 @@ div{
     width: 30vw;
     height: 30vh;
      border: solid 1px whitesmoke;
+     border-top-right-radius: 40px;
      /* background-color: whitesmoke; */
      background-color: white;
-     box-shadow: 6px 23px 15px grey;
+     box-shadow: 16px 23px 15px grey;
      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
      font-size: 20px;
      

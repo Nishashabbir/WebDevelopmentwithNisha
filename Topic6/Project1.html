@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .card-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end; /* Aligns the cards along their bottom edges */
+  gap: 20px; /* Adds space between cards */
+  
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: rgb(172, 31, 136);
+    font-size: 1.4em;
+    color: rgb(252, 250, 253);
+  width: 200px;
+  height: 300px;
+  
+  align-content: center; 
+  /* this is used to center the text or the content of the box or card to vertically center  */
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transform-origin: bottom center; 
+  text-align: center;
+ 
+ 
+  /* Rotate around the bottom edge */
+}
+
+.card:nth-child(1) {
+  transform: rotate(-5deg) translateY(20px); /* Tilt and lower */
+}
+
+.card:nth-child(2) {
+  transform: rotate(0deg); /* Center card, no tilt */
+}
+
+.card:nth-child(3) {
+  transform: rotate(5deg) translateY(20px); /* Tilt and lower */
+}
+
+    </style>
+</head>
+
+<body>
+
+
+    <div class="card-container">
+        <div class="card">Card 1</div>
+        <div class="card">Card 2</div>
+        <div class="card">Card 3</div>
+      </div>
+      
+      
+    
+</body>
+</html>
